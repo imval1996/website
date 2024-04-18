@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revive Ship Class - Wellness Retreat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Revive Wellness Retreat</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">About Revive Wellness Retreat</h2>
+            <p>Welcome aboard the Revive, the ultimate wellness retreat at sea. Experience rejuvenation of mind, body, and soul
+                as you embark on a journey to wellness.</p>
+            <p>Our ship is dedicated to providing a sanctuary for your wellness journey, offering a variety of amenities and
+                services designed to promote holistic well-being.</p>
+            <p>Embark on a voyage of self-discovery and renewal with Revive.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-center">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Spa Treatments</h4>
+                    <p>Indulge in luxurious spa treatments to relax and rejuvenate.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Cold Plunge</h4>
+                    <p>Revitalize your senses with invigorating cold plunge sessions.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Healthy Cuisine</h4>
+                    <p>Enjoy organic, vegan, and freshly prepared meals that nourish the body and soul.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-center">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white text-center">
+        <div class="container">
+            <p>&copy; 2024 Revive Wellness Retreat</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+/* Sea and beach theme styles */
+
+body {
+    background-image: url('https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2017/08/Labadee-3-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black navbar */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important; /* White text color for navbar */
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important; /* Yellow hover color for navbar links */
+}
+
+/* Styling for sections */
+section {
+    padding: 80px 0;
+}
+
+/* Styling for footer */
+footer {
+    padding: 20px 0;
+}
